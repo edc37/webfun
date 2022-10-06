@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: pink;
+    line-height: 2;
+    text-align: center;
+    margin: 0 45em 0 45em;
+}
+h1 {
+    text-align: center;
+    color: white;
+}
+ol {
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+    font-weight: 600;
+}
+img {
+    width: 30%;
+}
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    margin: 0 120px 0 120px;
+    text-align: center;
+}
+.intro {
+    color: white;
+}
+.cite {
+    color: white;
+    font-weight: 700;
+}
+h1:hover {
+    color: black;
+}
+footer {
+    margin: 0 80px 0 80px;
+}
