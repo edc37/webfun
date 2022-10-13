@@ -1,0 +1,15 @@
+body {
+    background-color: gray;
+}
+img {
+    border-radius: 50%;
+    border: 20px solid rgb(85, 80, 80);
+    width: 20%;
+    margin: 0 70px;
+}
+.bubbles {
+    border-radius: 0%;
+    width: 100%;
+    border: none;
+    margin: 0 0 40px 0;
+}
