@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Splash&family=Zilla+Slab&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -6,6 +8,9 @@ nav a {
     text-align: center;
     color: #f9f7f3;
     text-decoration: none;
+    font-family: "Zilla Slab";
+    padding: 10px;
+    padding: 35px;
 }
 nav a:hover {
     background-color: #0d8d99;
@@ -13,12 +18,16 @@ nav a:hover {
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
+    font-family: Splash;
+    color: #0d8d99;
+    letter-spacing: 3px;
 }
 #hero-img {
     width: 100%;
 }
 .button-box {
     text-align: center;
+    font-family: "zilla slab";
 }
 main section {
     text-align: center;
@@ -29,6 +38,10 @@ main section {
 }
 body {
     background-color: #b5e2fa;
+    font-family: "zilla slab";
+    letter-spacing: 3px;
+    color: #0d8d99;
+    font-size: 22px;
 }
 header {
     background-color: #0d8d99;
@@ -37,6 +50,12 @@ header {
     background-color: #0d8d99;
     color: #f9f7f3;
     text-decoration: none;
+    font-family: "zilla slab";
+    font-size: 18px;
+    margin: 0;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #eddea4;
@@ -44,14 +63,18 @@ header {
 }
 .msg {
     background-color: #0d8d99;
+    font-family: "zilla slab";
 }
 footer {
     background-color: #0d8d99;
     color: #f9f7f3;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a {
     color: #f9f7f3;
     text-decoration: none;
+    font-family: "zilla slab";
 }
 footer a:hover {
     color: #eddea4;
@@ -62,8 +85,16 @@ footer p {
 footer p:hover {
     text-decoration: underline;
 }
+footer .social img {
+    padding-top: 15px;
+}
 .home-title {
     color: black;
+    margin-top: 10px;
+}
+h2 {
+    font-family: splash;
+    margin: 0;
 }
 h4 {
     color: black;
@@ -73,10 +104,30 @@ h4 {
 }
 .msg p {
     color: #f9f7f3;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+.msg {
+    line-height: 1.5em;
+    padding: 35px;
 }
 .logo {
     width: 80px;
 }
+#logo_link {
+    padding-top: 5px;
+}
 .icon {
     width: 80px;
+    padding-top: 10px;
+}
+.home-title {
+    font-size: 2em;
+    font-family: splash;
+}
+.card-img {
+    border: 10px solid #0d8d99;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
 }
