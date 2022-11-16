@@ -243,6 +243,9 @@ h4 {
 h4 {
     color: #0d8d99;
 }
+h3 {
+    font-family: splash, Arial, sans-serif;
+}
 #hero2 {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
