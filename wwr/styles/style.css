@@ -235,3 +235,56 @@ h4 {
         margin-top: 25px;
     }
 }
+/*Page 2 Rates & Dates*/
+.page2 {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+h4 {
+    color: #0d8d99;
+}
+#hero2 {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+#hero2-msg {
+    text-align: center;
+    font-family: Splash, Arial, sans-serif;
+    color: #0d8d99;
+    letter-spacing: 3px;
+}
+#hero2-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 150px;
+}
+#hero2-img {
+    width: 100%;
+}
+#hero2-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+.info {
+    grid-column: 1/11;
+}
+.grand-canyon-3, .salmon-river {
+    grid-column: 1/3;
+}
+.grand-canyon-6, .desolation {
+    grid-column: 4/7;
+}
+.grand-canyon-3, .grand-canyon-6 {
+    grid-row: 2/3;
+}
+.salmon-river, .desolation {
+    grid-row: 3/4;
+}
+.calendar {
+    width: 90%;
+    grid-template-rows: repeat(5, 1fr);
+    grid-column: 8/11;
+    grid-row: 2/3;
+}
