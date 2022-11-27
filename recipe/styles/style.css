@@ -43,6 +43,44 @@ body {
     color: #f4acb7;
     font-size: 22px;
 }
+h1, h2 {
+    font-family: Pacifico, arial, sans-serif;
+}
+h1 {
+    grid-column: 2/9;
+}
+main.home {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+}
+.crusty-new {
+    grid-column: 1/4;
+    margin-left: 50px;
+}
+.bowls-new {
+    grid-column: 6/9;
+    margin-right: 50px;
+}
+.babka-new {
+    grid-column: 1/4;
+    margin-left: 50px;
+}
+.pie-new {
+    grid-column: 6/9;
+    margin-right: 50px;
+}
+.food-img {
+    border: 10px solid #f4acb7;
+}
+/* ABOUT ME */
+#background {
+    background-color:#ffcad4;
+    grid-column: 1/9;
+}
+.about-me {
+    color: #9d8189;    
+}
+
 /* FOOTER */
 footer {
     background-color: #9d8189;
