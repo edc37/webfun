@@ -8,11 +8,13 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="breads.html">Breads</a>
-        <a href="desserts.html">Desserts</a>
-    </nav>
+    <div id="navbar">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="breads.html">Breads</a>
+            <a href="desserts.html">Desserts</a>
+        </nav>
+    </div>
     <h1>Desserts</h1>
     <section class="d-pecan-pie">
         <div id="pecan-pie-background"></div>
@@ -110,4 +112,18 @@
         <p>Web Fundamentals 2022</p>
         <a class="siteplan" href="site-plan.html">Site Plan</a>
     </footer>
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+        </script>
 </body>

@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Work+Sans:wght@300&display=swap');
 
-#content {
+/*#content {
     max-width: 1600px;
+    margin: 0 auto;
+}*/
+body {
     margin: 0 auto;
 }
 nav {
@@ -51,7 +54,7 @@ nav a{
   .sticky {
     position: fixed;
     top: 0;
-    /*width: 100%;*/
+    width: 100%;
   }
   
   .sticky + .content {
