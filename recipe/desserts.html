@@ -7,19 +7,24 @@
     <title>Desserts</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
-<body>
+<body class="desserts">
     <div id="navbar">
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="breads.html">Breads</a>
-            <a href="desserts.html">Desserts</a>
-        </nav>
+        <header>
+            <a id="logo_link" href="index.html">
+                <img class="logo" src="images/logo2.png" alt="logo">
+            </a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="breads.html">Breads</a>
+                <a href="desserts.html">Desserts</a>
+            </nav>
+        </header>
     </div>
     <h1>Desserts</h1>
     <section class="d-pecan-pie">
         <div id="pecan-pie-background"></div>
         <img class="d-pecan-pie-img" src="images/pecan_pie.jpg" alt="pecan pie">
-        <h2>Pecan Pie</h2>
+        <h2 class="pecan-pie">Pecan Pie</h2>
         <section class="pecan-pie-ingr">
             <h4>Ingredients</h4>
             <ul>
@@ -49,7 +54,7 @@
     <section class="d-babka">
         <div id="babka-background"></div>
         <img class="d-babka-img" src="images/babka.jpg" alt="babka">
-        <h2>Babka</h2>
+        <h2 class="babka">Babka</h2>
         <section class="babka-ingr">
             <h4>Dough</h4>
             <ul>
@@ -102,7 +107,7 @@
                 <li>Repeat with other loaf.</li>
                 <li>Bake for 25-30 minutes.</li>
                 <li>While baking, make a simple syrup with water and sugar. Mix and heat in small saucepan until sugar dissolves.</li>
-                <li>Once removing from the oven, immediately brush syrup over your loaves. USE ALL OF IT.</li>
+                <li>Once removed from the oven, immediately brush syrup over your loaves. USE ALL OF IT.</li>
                 <li>Allow to cool, then enjoy!</li>
             </ol>
         </section>
@@ -125,5 +130,5 @@
             navbar.classList.remove("sticky");
           }
         }
-        </script>
+    </script>
 </body>
